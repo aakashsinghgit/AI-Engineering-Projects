@@ -35,6 +35,26 @@ Review the generated flashcards, make changes, and download them as PDFs.
 ai-flashcard-generator/
 │
 ├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── utils.py
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   └── index.js
+│   └── package.json
+│
+├── README.md
+└── .gitignore
+
+ai-flashcard-generator/
+│
+├── backend/
 │   ├── app.py                # Main Flask backend application
 │   ├── requirements.txt      # Python dependencies
 │   ├── utils.py              # Utility functions (e.g., file parsing, AI calls)
