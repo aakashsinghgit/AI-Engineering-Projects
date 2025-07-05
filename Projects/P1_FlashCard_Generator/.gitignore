@@ -5,6 +5,7 @@ __pycache__/
 *.pyd
 .env
 backend/venv/
+logs/
 
 # Node.js
 node_modules/
