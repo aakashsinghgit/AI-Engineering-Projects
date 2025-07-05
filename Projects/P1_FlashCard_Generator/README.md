@@ -33,7 +33,11 @@ Review the generated flashcards, make changes, and download them as PDFs.
 
 ### Project Structure
 ```sh
+<<<<<<< HEAD
 project-root/
+=======
+ai-flashcard-generator/
+>>>>>>> a35dcdf0b2c5c77c5953a14ad6ed27f9c7af9d52
 │
 ├── backend/
 │   ├── src/
@@ -62,6 +66,7 @@ project-root/
 │   ├── package-lock.json
 │   └── README.md
 │
+<<<<<<< HEAD
 ├── artifacts/
 │   ├── experimentation/
 │   │   ├── chapter_1.pdf
@@ -76,6 +81,10 @@ project-root/
 ├── .gitignore
 ├── README.md
 └── (other config files as needed)
+=======
+├── README.md                 # Project documentation
+└── .gitignore                # Files/folders to ignore in git
+>>>>>>> a35dcdf0b2c5c77c5953a14ad6ed27f9c7af9d52
 ```
 
 ### Prerequisites
