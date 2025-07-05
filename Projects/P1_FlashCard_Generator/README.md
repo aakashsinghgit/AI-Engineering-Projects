@@ -32,26 +32,7 @@ Review the generated flashcards, make changes, and download them as PDFs.
 ## Getting Started
 
 ### Project Structure
-ai-flashcard-generator/
-│
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── utils.py
-│   └── .env
-│
-├── frontend/
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── components/
-│   │   └── index.js
-│   └── package.json
-│
-├── README.md
-└── .gitignore
-
+```sh
 ai-flashcard-generator/
 │
 ├── backend/
@@ -71,6 +52,7 @@ ai-flashcard-generator/
 │
 ├── README.md                 # Project documentation
 └── .gitignore                # Files/folders to ignore in git
+```
 
 ### Prerequisites
 
