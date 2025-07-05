@@ -8,11 +8,11 @@ Review the generated flashcards, make changes, and download them as PDFs.
 ## Features
 
 - **Simple Upload/Input:** Choose a topic of interest or paste/upload your learning material (plain text, PDF, or DOC files – limited to 100 pages max). Select the flashcard types.
-- **AI-Powered Flashcard Generation:** Instantly generate flashcards using natural language processing.
 - **Customizable Flashcard Types:**
   - **Summary Notes:** Concise summaries of key topics.
   - **Concept Maps:** Visual/text outlines of relationships between concepts.
   - **Quick MCQs:** Multiple-choice questions for rapid review.
+- **AI-Powered Flashcard Generation:** Instantly generate flashcards using natural language processing.
 - **Review and Regenerate:** Review each card and accept input for any modifications. Regenerate as needed.
 - **Download/Export:** Save your flashcards in PDF format.
 - **Beginner-Friendly:** Clean, minimal interface with no extra features—just great flashcards.
@@ -32,25 +32,51 @@ Review the generated flashcards, make changes, and download them as PDFs.
 ## Getting Started
 
 ### Project Structure
-ai-flashcard-generator/
+```sh
+project-root/
 │
 ├── backend/
-│   ├── app.py                # Main Flask backend application
-│   ├── requirements.txt      # Python dependencies
-│   ├── utils.py              # Utility functions (e.g., file parsing, AI calls)
-│   └── .env                  # API keys and environment variables (not committed)
+│   ├── src/
+│   │   ├── file_ingestion.py
+│   │   ├── card_generation.py
+│   │   ├── output_handler.py
+│   │   ├── pipeline.py
+│   │   ├── split_pdf_by_chapter.py
+│   │   ├── logger.py
+│   │   ├── custom_exceptions.py
+│   │   └── utils.py
+│   ├── tests/
+│   │   ├── test_file_ingestion.py
+│   │   ├── test_card_generation.py
+│   │   ├── test_output_handler.py
+│   │   ├── test_pipeline.py
+│   │   └── test_utils.py
+│   ├── venv/                       # Python virtual environment (excluded in .gitignore)
+│   ├── requirements.txt
+│   └── README.md
 │
 ├── frontend/
 │   ├── public/
-│   │   └── index.html        # Main HTML file
 │   ├── src/
-│   │   ├── App.js            # Main React component
-│   │   ├── components/       # React components (e.g., Upload, Flashcard, etc.)
-│   │   └── index.js          # Entry point for React
-│   └── package.json          # Node.js dependencies
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
 │
-├── README.md                 # Project documentation
-└── .gitignore                # Files/folders to ignore in git
+├── artifacts/
+│   ├── experimentation/
+│   │   ├── chapter_1.pdf
+│   │   ├── chapter_2.pdf
+│   │   └── ... (rest of chapters)
+│   ├── data/
+│   │   └── preprocessed/
+│   ├── outputs/
+│   │   └── flashcards/
+│   └── test_data/
+│
+├── .gitignore
+├── README.md
+└── (other config files as needed)
+```
 
 ### Prerequisites
 
