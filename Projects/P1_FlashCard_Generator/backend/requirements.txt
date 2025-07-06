@@ -1,2 +1,5 @@
 setuptools
--e .
+PyPDF2
+pdfminer
+Flask
+# -e .

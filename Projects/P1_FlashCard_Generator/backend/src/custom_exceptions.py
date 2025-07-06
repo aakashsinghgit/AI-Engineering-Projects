@@ -30,9 +30,9 @@ class CustomException(Exception):
         return self.error_message
 
 # Example usage:
-if __name__ == "__main__":
-    try:
-        a = 1 / 0  # Example to raise an exception
-    except Exception as e:
-        logging.info("Divide by zero exception occurred")
-        raise CustomException(e, sys) from e
+# if __name__ == "__main__":
+#     try:
+#         a = 1 / 0  # Example to raise an exception
+#     except Exception as e:
+#         logging.info("Divide by zero exception occurred")
+#         raise CustomException(e, sys) from e

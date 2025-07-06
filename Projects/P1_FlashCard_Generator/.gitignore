@@ -1,11 +1,8 @@
 # Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
 backend/venv/
-logs/
+backend/logs/
+FlashCardGenerator.egg-info/
+src/__pycache__/
 
 # Node.js
 node_modules/
