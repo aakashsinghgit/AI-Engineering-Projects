@@ -1,0 +1,2 @@
+[2025-07-08 19:29:24,375 ] 59 root - INFO - PDF file loaded successfully from artifacts/standard_pdfs/Chapter_7.pdf
+[2025-07-08 19:29:24,674 ] 32 root - ERROR - Error in preprocess_pdf_file: CustomException.__init__() missing 1 required positional argument: 'error_detail'

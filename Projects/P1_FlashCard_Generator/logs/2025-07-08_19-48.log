@@ -1,0 +1,23 @@
+[2025-07-08 19:48:50,979 ] 42 root - INFO - Loading PDF: artifacts/standard_pdfs/Chaper_7.pdf
+[2025-07-08 19:48:51,024 ] 62 root - ERROR - Error loading PDF file from artifacts/standard_pdfs/Chaper_7.pdf: [Errno 2] No such file or directory: 'artifacts/standard_pdfs/Chaper_7.pdf'
+[2025-07-08 19:48:51,026 ] 51 root - ERROR - Failed to ingest PDF: artifacts/standard_pdfs/Chaper_7.pdf
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\utils.py", line 55, in load_pdf_file
+    pdf = PdfReader(file_path)
+  File "C:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\venv\Lib\site-packages\pypdf\_reader.py", line 136, in __init__
+    self._initialize_stream(stream)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\venv\Lib\site-packages\pypdf\_reader.py", line 155, in _initialize_stream
+    with open(stream, "rb") as fh:
+         ~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/standard_pdfs/Chaper_7.pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\file_ingestion.py", line 43, in ingest_pdf
+    raw_text = load_pdf_file(pdf_path)
+  File "C:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\utils.py", line 63, in load_pdf_file
+    raise CustomException(f"Error loading PDF file: {e}")
+          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomException.__init__() missing 1 required positional argument: 'error_detail'

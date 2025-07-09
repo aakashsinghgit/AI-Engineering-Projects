@@ -1,0 +1,5 @@
+[2025-07-09 12:28:37,297 ] 30 root - INFO - Text file loaded successfully from artifacts/input_data/temp/cleaned_text.txt
+[2025-07-09 12:28:37,298 ] 23 root - INFO - Initializing flashcard generation pipeline.
+[2025-07-09 12:28:39,404 ] 33 root - ERROR - Error during flashcard generation: name 'torch' is not defined
+[2025-07-09 12:28:39,405 ] 32 root - ERROR - Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [24] with error message: [name 'torch' is not defined]
+[2025-07-09 12:28:39,406 ] 48 root - ERROR - Custom exception occurred: Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [24] with error message: [name 'torch' is not defined]

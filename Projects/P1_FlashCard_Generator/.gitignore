@@ -3,6 +3,7 @@ backend/venv/
 backend/logs/
 FlashCardGenerator.egg-info/
 src/__pycache__/
+artifacts/
 
 # Node.js
 node_modules/

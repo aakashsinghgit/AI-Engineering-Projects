@@ -1,0 +1,7 @@
+[2025-07-08 20:13:14,404 ] 41 root - INFO - Loading PDF: artifacts/standard_pdfs/chapter_7.pdf
+[2025-07-08 20:13:15,397 ] 57 root - INFO - PDF file loaded successfully from artifacts/standard_pdfs/chapter_7.pdf
+[2025-07-08 20:13:15,398 ] 43 root - INFO - PDF loaded successfully. Starting cleaning process.
+[2025-07-08 20:13:15,398 ] 17 root - INFO - Starting text cleaning.
+[2025-07-08 20:13:15,400 ] 26 root - INFO - Text cleaning completed.
+[2025-07-08 20:13:15,401 ] 45 root - INFO - PDF ingestion and cleaning successful.
+[2025-07-08 20:13:15,401 ] 58 root - INFO - Saving cleaned text to: artifacts/input_data/temp/cleaned_text.txt

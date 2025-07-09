@@ -1,0 +1,13 @@
+[2025-07-06 23:05:30,523 ] 20 root - INFO - Found 11 chapters in the PDF.
+[2025-07-06 23:05:30,649 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_1.pdf with pages 11 to 19.
+[2025-07-06 23:05:30,664 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_2.pdf with pages 20 to 23.
+[2025-07-06 23:05:30,688 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_3.pdf with pages 24 to 24.
+[2025-07-06 23:05:30,744 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_4.pdf with pages 25 to 43.
+[2025-07-06 23:05:30,790 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_5.pdf with pages 44 to 50.
+[2025-07-06 23:05:31,037 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_6.pdf with pages 51 to 57.
+[2025-07-06 23:05:31,132 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_7.pdf with pages 58 to 97.
+[2025-07-06 23:05:31,204 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_8.pdf with pages 98 to 116.
+[2025-07-06 23:05:31,261 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_9.pdf with pages 117 to 137.
+[2025-07-06 23:05:31,304 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_10.pdf with pages 138 to 145.
+[2025-07-06 23:05:31,618 ] 53 root - INFO - Saved artifacts\standard_pdfs\chapter_11.pdf with pages 146 to 185.
+[2025-07-06 23:05:31,618 ] 64 root - INFO - PDF splitting completed successfully.

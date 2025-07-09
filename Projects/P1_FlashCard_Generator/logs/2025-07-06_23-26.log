@@ -1,0 +1,19 @@
+[2025-07-06 23:26:14,311 ] 28 root - INFO - Splitting PDF: artifacts/standard_pdfs/Tlbdl.pdf
+[2025-07-06 23:26:14,540 ] 16 root - INFO - Found chapter start: Page 11
+[2025-07-06 23:26:14,754 ] 16 root - INFO - Found chapter start: Page 20
+[2025-07-06 23:26:14,843 ] 16 root - INFO - Found chapter start: Page 24
+[2025-07-06 23:26:14,855 ] 16 root - INFO - Found chapter start: Page 25
+[2025-07-06 23:26:15,495 ] 16 root - INFO - Found chapter start: Page 44
+[2025-07-06 23:26:16,752 ] 16 root - INFO - Found chapter start: Page 51
+[2025-07-06 23:26:17,223 ] 16 root - INFO - Found chapter start: Page 58
+[2025-07-06 23:26:18,161 ] 16 root - INFO - Found chapter start: Page 98
+[2025-07-06 23:26:18,161 ] 20 root - INFO - Total chapters found: 8
+[2025-07-06 23:26:18,292 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_1.pdf (Pages 11 to 19)
+[2025-07-06 23:26:18,311 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_2.pdf (Pages 20 to 23)
+[2025-07-06 23:26:18,318 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_3.pdf (Pages 24 to 24)
+[2025-07-06 23:26:18,382 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_4.pdf (Pages 25 to 43)
+[2025-07-06 23:26:18,416 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_5.pdf (Pages 44 to 50)
+[2025-07-06 23:26:18,648 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_6.pdf (Pages 51 to 57)
+[2025-07-06 23:26:18,780 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_7.pdf (Pages 58 to 97)
+[2025-07-06 23:26:19,721 ] 48 root - INFO - Saved: artifacts\standard_pdfs\split_pdfsV2\chapter_8.pdf (Pages 98 to 185)
+[2025-07-06 23:26:19,721 ] 49 root - INFO - PDF splitting completed successfully.

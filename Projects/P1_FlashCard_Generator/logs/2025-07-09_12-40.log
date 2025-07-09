@@ -1,0 +1,8 @@
+[2025-07-09 12:42:09,905 ] 30 root - INFO - Text file loaded successfully from artifacts/input_data/temp/cleaned_text.txt
+[2025-07-09 12:42:09,946 ] 23 root - INFO - Initializing flashcard generation pipeline.
+[2025-07-09 12:42:11,891 ] 1719 huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-07-09 12:44:04,234 ] 1719 huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-07-09 12:44:10,051 ] 26 root - INFO - Generating flashcards from text.
+[2025-07-09 12:44:10,438 ] 33 root - ERROR - Error during flashcard generation: `num_return_sequences` (5) has to be smaller or equal to `num_beams` (4).
+[2025-07-09 12:44:10,439 ] 32 root - ERROR - Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [27] with error message: [`num_return_sequences` (5) has to be smaller or equal to `num_beams` (4).]
+[2025-07-09 12:44:10,440 ] 48 root - ERROR - Custom exception occurred: Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [27] with error message: [`num_return_sequences` (5) has to be smaller or equal to `num_beams` (4).]

@@ -1,5 +1,7 @@
 setuptools
-PyPDF2
-pdfminer
-Flask
+PyPDF
+transformers
+torch
+# we need to check this later - hg_x
+flask
 # -e .

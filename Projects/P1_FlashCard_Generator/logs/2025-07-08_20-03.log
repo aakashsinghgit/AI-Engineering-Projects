@@ -1,0 +1,9 @@
+[2025-07-08 20:03:16,144 ] 41 root - INFO - Loading PDF: artifacts/standard_pdfs/Chaper_7.pdf
+[2025-07-08 20:03:16,144 ] 62 root - ERROR - Error loading PDF file from artifacts/standard_pdfs/Chaper_7.pdf: [Errno 2] No such file or directory: 'artifacts/standard_pdfs/Chaper_7.pdf'
+[2025-07-08 20:03:42,225 ] 41 root - INFO - Loading PDF: artifacts/standard_pdfs/chapter_7.pdf
+[2025-07-08 20:03:43,827 ] 59 root - INFO - PDF file loaded successfully from artifacts/standard_pdfs/chapter_7.pdf
+[2025-07-08 20:03:43,828 ] 45 root - INFO - PDF loaded successfully. Starting cleaning process.
+[2025-07-08 20:03:43,828 ] 17 root - INFO - Starting text cleaning.
+[2025-07-08 20:03:43,852 ] 26 root - INFO - Text cleaning completed.
+[2025-07-08 20:03:43,853 ] 47 root - INFO - PDF ingestion and cleaning successful.
+[2025-07-08 20:03:43,854 ] 60 root - INFO - Saving cleaned text to: artifacts/input_data/temp/cleaned_text.txt

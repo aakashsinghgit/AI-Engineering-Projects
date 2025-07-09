@@ -1,0 +1,2 @@
+[2025-07-08 20:31:01,817 ] 41 root - ERROR - Divide by zero exception occurred
+[2025-07-08 20:31:01,818 ] 32 root - ERROR - Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\custom_exceptions.py] at line number: [39] with error message: [division by zero]

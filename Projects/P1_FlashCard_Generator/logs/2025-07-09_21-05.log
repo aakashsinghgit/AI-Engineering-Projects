@@ -1,0 +1,6 @@
+[2025-07-09 21:06:29,282 ] 30 root - INFO - Text file loaded successfully from ./artifacts/input_data/temp/cleaned_text.txt
+[2025-07-09 21:06:29,282 ] 23 root - INFO - Initializing flashcard generation pipeline.
+[2025-07-09 21:06:36,767 ] 26 root - INFO - Generating flashcards from text.
+[2025-07-09 21:06:57,220 ] 38 root - ERROR - Error during flashcard generation: [enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2318520000 bytes.
+[2025-07-09 21:06:57,305 ] 32 root - ERROR - Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [32] with error message: [[enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2318520000 bytes.]
+[2025-07-09 21:06:57,306 ] 53 root - ERROR - Custom exception occurred: Error occurred in script: [c:\Users\ASUS\Desktop\GIT\AI-Engineering-Projects\Projects\P1_FlashCard_Generator\backend\src\components\fcard_generation.py] at line number: [32] with error message: [[enforce fail at alloc_cpu.cpp:116] data. DefaultCPUAllocator: not enough memory: you tried to allocate 2318520000 bytes.]
