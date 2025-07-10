@@ -1,0 +1,4 @@
+[2025-07-10 23:38:15,810 ] 30 root - INFO - Text file loaded successfully from ./artifacts/input_data/temp/cleaned_text.txt
+[2025-07-10 23:38:15,811 ] 23 root - INFO - Initializing flashcard generation pipeline.
+[2025-07-10 23:38:28,172 ] 26 root - INFO - Generating flashcards from text.
+[2025-07-10 23:39:52,293 ] 34 root - INFO - Flashcard generation completed successfully.

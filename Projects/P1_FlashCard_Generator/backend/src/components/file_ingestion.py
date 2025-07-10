@@ -68,7 +68,7 @@ def save_cleaned_text(text, output_path):
 # Example usage:
 # if __name__ == "__main__":  
 #     try:
-#         pdf_path = "artifacts/standard_pdfs/chapter_8.pdf"  # Replace with your PDF file path
+#         pdf_path = "artifacts/standard_pdfs/chapter_3.pdf"  # Replace with your PDF file path
 #         output_path = "artifacts/input_data/temp/cleaned_text.txt"  # Replace with your desired output path
         
 #         cleaned_text = ingest_pdf(pdf_path, load_pdf_file)

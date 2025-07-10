@@ -6,7 +6,7 @@ from src.custom_exceptions import CustomException
 from src.logger import logging as logger
 import sys
 
-from transformers import pipeline
+from transformers.pipelines import pipeline
 
 def generate_flashcards(text, model_name="google/flan-t5-base"):
     """
@@ -36,8 +36,7 @@ def generate_flashcards(text, model_name="google/flan-t5-base"):
     
     except Exception as e:
         logger.error(f"Error during flashcard generation: {e}")
-        raise CustomException(e, sys) from e
-
+        raise CustomException(f"Failed to generate flashcards: {e}")
 
 if __name__ == "__main__":
     try:
